@@ -1,4 +1,12 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --path-of-background-image: url("../images/cover-image-dark.png");
+  --accent-color: #ff0070;
+  --accent-color-text: #F1B2CE;
+  --accent-color-text-hover: rgb(255, 0, 112, 0.4);
+  --accent-background-color: #000028;
+  --accent-focus-title-color: #DB00FF;
+  --accent-focus-title-hover-color: #FF0070;
+  --accent-title-color: #000028;
+  --accent-title-background-color: #ff0070;
+  --accent-link-affect: #FF0070;
+}

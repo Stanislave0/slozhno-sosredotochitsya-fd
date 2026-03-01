@@ -132,6 +132,8 @@
 
 .section:last-child {
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -150,11 +152,6 @@
 
 .section.section-modified > .title {
    grid-column: 1;
-}
-
-.section:last-child {
-  display: flex;
-  flex-direction: column;
 }
 
 .card-sub {

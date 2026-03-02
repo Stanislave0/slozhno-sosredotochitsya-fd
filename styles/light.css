@@ -1,4 +1,5 @@
 :root.theme-light {
+  --decoration-el-visibility: none;
   --path-of-background-image: url("../images/cover-image-light.png");
   --accent-color: #353430;
   --accent-color-text: #353430;
@@ -13,15 +14,16 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --decoration-el-visibility: none;
     --path-of-background-image: url("../images/cover-image-light.png");
-  --accent-color: #353430;
-  --accent-color-text: #353430;
-  --accent-color-text-hover: rgb(50, 49, 45, 0.4);
-  --accent-background-color: #FFF1F7;
-  --accent-focus-title-color: #FFC2E6;
-  --accent-focus-title-hover-color: #FF8DCB;
-  --accent-title-color: #353430;
-  --accent-title-background-color: #FF8DCB;
-  --accent-link-affect: #FF8DCB;
+    --accent-color: #353430;
+    --accent-color-text: #353430;
+    --accent-color-text-hover: rgb(50, 49, 45, 0.4);
+    --accent-background-color: #FFF1F7;
+    --accent-focus-title-color: #FFC2E6;
+    --accent-focus-title-hover-color: #FF8DCB;
+    --accent-title-color: #353430;
+    --accent-title-background-color: #FF8DCB;
+    --accent-link-affect: #FF8DCB;
   }
 } 

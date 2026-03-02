@@ -1,4 +1,5 @@
 :root.theme-dark {
+  --decoration-el-visibility: flex;
   --path-of-background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --accent-color-text: #F1B2CE;
